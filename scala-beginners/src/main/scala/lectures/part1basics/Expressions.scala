@@ -27,4 +27,26 @@ object Expressions extends App{
   println(if(aCondition) 5 else 3)
   println(1 + 3)
 
+  var i = 0
+  while (i < 10) {
+    println(i)
+    i += 1
+  }
+  // NEVER WRITE THIS AGAIN
+
+  //EVERYTHING in Scala is an Expression!
+
+  val aWeiredValue = (aVariable = 3) // Unit === void
+  println(aWeiredValue)
+
+  //side effects: println(), whiles, reassigning
+
+  // Code blocks
+
+  val aCodeBlock = {
+    val y = 2
+    val z = y + 1
+
+    if (z > 2) "hello" else "goodbye"
+  }
 }
