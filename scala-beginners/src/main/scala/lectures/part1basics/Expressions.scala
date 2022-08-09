@@ -11,7 +11,7 @@ object Expressions extends App{
   println( 1== x)
   // == != > >= < <=
 
-  println(!(1 == x)
+  //println(!(1 == x)
     // ! && \\
 
   var aVariable = 2
